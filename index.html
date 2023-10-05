@@ -35,7 +35,7 @@
               <p style="text-align:center">
                 <name>Zhenglun Kong</name>
               </p>
-              <p>I am a third-year PhD student at Northeastern University, supervised by Prof. Yanzhi Wang.  I received my B.E. degree from Huazhong University of Science and Technology (HUST), China, in 2017. My current research is on machine learning, model compression, and computer vision.
+              <p>I am a final-year PhD student at Northeastern University, supervised by Prof. Yanzhi Wang.  I received my master degree from Northeastern University in 2019 and B.E. degree from Huazhong University of Science and Technology (HUST), China, in 2017. My current research is on machine learning, model compression, and computer vision.
               </p>
               <p style="text-align:center">
                 <a href="mailto:kong.zhe@northeastern.edu">Email</a> &nbsp/&nbsp
@@ -55,11 +55,28 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research interests include model compression for speed acceleration and efficiency improvement; AutoML with neural architecture search; machine learning with imaging classification and object detection; dynamic sparse training for training and inference acceleration; deep neural network pre-training with self-supervision. 
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+              I am deeply invested in addressing the growing challenge posed by the extensive resource consumption of neural networks, which results in a significant carbon footprint, hinders academic research accessibility, and restricts the proliferation of AI benefits in emerging economies. My research is particularly focused on the following domains and methodologies: 
+              <p>
+            <ul>
+           <li><p>
+              Energy-Efficient Deep Learning:  Efficient training and inference, model compression, and efficient DNN design.
+            </p>
+            <li><p>
+              General AI Landing: Algorithm-hardware co-design for mobile device and FPGA 
+            </p>
+            <li><p>
+              Methodologies: Token/weight pruning, quantization, sparse training, data distillation, and latency-aware neural architecture search.
+            </p>
+            <li><p>
+              Models: Large Language Models (GPT, LLaMA, BERT, and variants), Vision Models (Vision Transformer, DETR, ResNet, and variants).
+            </p>
+            <li><p> 
+              Tasks & Applications: Image classification, 3D object detection for autonomous driving systems, medical image segmentation, and exploring the influence of generative AI in business.
+            </p>
+
+            </ul>
+          </td>
+        </tr>
 
         <table
           style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -70,12 +87,21 @@
                 <p>
                 <ul id="exp" style="list-style:none;">
                   <li> <img class="school-logo" src="images/northeastern_logo.png">
-                    <div class="school-text">Sep 2019 - Present, Northeastern University, <br />Research Assistant
+                    <div class="school-text"> Northeastern University, Sep 2019 - Present,<br />Research Assistant
                       <br /> Advisor: Prof. Yanzhi Wang
                     </div>
                   </li>
+                  <li> <img class="school-logo" src="images/Microsoft_logo.png">
+                    <div class="school-text">Microsoft, June 2022 - August 2022 <br />Research Intern
+                     <br /> Mentor: Subhabrata Mukherjee  
+                    </div>
+                  <li> <img class="school-logo" src="images/arm.png">
+                    <div class="school-text">ARM, June 2021 - August 2021 <br />Research Intern
+                     <br /> Mentors: Lingchuan Meng, Danny Loh
+                    </div>
                   <li> <img class="school-logo" src="images/samsung.png">
-                    <div class="school-text">October 2021 - December 2021, Samsung Research America, <br />Research Intern
+                    <div class="school-text">Samsung Research America, October 2021 - December 2021 <br />Research Intern
+                     <br /> Mentors: Avik Ray, Yilin Shen, Hongxia Jin
                     </div>
                   </li>
                 </ul>
@@ -85,6 +111,67 @@
           </tbody>
         </table>
 
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Selected Publications</heading> <br>
+              <a href="https://scholar.google.com/citations?user=hwTuEX0AAAAJ&hl=en">Google Scholar</a>
+              <font color="grey">for all publications</font>. * means equal contribution.
+            </td>
+          </tr>
+
+          <tr>
+            <td width="32%">
+              <img class="thumbnail" src="images/ECCV.pdf" data-id="hbar-carousel"></img>
+              <div id="hbar-carousel" class="carousel">
+                <img class="img-center-carousel" src="paper_images/DualHSIC.jpg" alt="">
+                <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                    data-carousel-id="hbar-carousel" class="carousel-close"></a>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>SPViT: Enabling Faster Vision Transformers via Latency-aware Soft Token Pruning</papertitle>
+              </a>
+              <br>
+              Zifeng Wang*, <b>Zheng Zhan*</b>, <b>Zhenglun Kong*<b>, Peiyan Dong*, Xiaolong Ma, Xin Meng, Mengshu Sun, Wei Niu, Xuan Shen, Geng Yuan, Bin Ren, Minghai Qin, Hao Tang, Yanzhi Wang
+              <br>
+              <em><b>[ECCV 2022]</b></em> <i>European Conference on Computer Vision</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2112.13890.pdf"><font color="red">PDF</font></a> / 
+              <a href="https://github.com/PeiyanFlying/SPViT"><font color="red">Code</font></a>/
+              <p></p>
+              <p> We propose a dynamic, latency-aware soft token pruning framework for Vision Transformer. Our attention-based multi-head token selector and token packaging technique, along with the latency-aware training strategy can well balance the tradeoff between accuracy and specific hardware constraints.  </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td width="32%">
+              <img class="thumbnail" src="images/aaai2023.pdf" data-id="hbar-carousel"></img>
+              <div id="hbar-carousel" class="carousel">
+                <img class="img-center-carousel" src="paper_images/DualHSIC.jpg" alt="">
+                <a href="javascript:void(0)"><img src="images/close-transparent.png" alt=""
+                    data-carousel-id="hbar-carousel" class="carousel-close"></a>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Peeling the Onion: Hierarchical Reduction of Data Redundancy for Efficient Vision Transformer Training</papertitle>
+              </a>
+              <br>
+              <b>Zhenglun Kong*<b>, Haoyu Ma*, Geng Yuan, Mengshu Sun, Yanyue Xie, Peiyan Dong, Xin Meng, Xuan Shen, Hao Tang, Minghai Qin, Tianlong Chen, Xiaolong Ma, Xiaohui Xie, Zhangyang Wang, Yanzhi Wang
+              <br>
+              <em><b>[AAAI 2023]</b></em> <i>The Thirty-Seventh AAAI Conference on Artificial Intelligence</i>
+              <br>
+              <a href="https://arxiv.org/pdf/2211.10801.pdf"><font color="red">PDF</font></a> / 
+              <a href="https://github.com/ZLKong/Tri-Level-ViT"><font color="red">Code</font></a>/
+              <p></p>
+              <p> In this work, we introduce sparsity into data and propose an end-to-end efficient training framework to accelerate ViT training and inference. We leverage a hierarchical data redundancy reduction scheme, by exploring the sparsity of the number of training examples in the dataset, the number of patches (tokens) in each input image, and the number of connections between tokens in attention weights.  </p>
+            </td>
+          </tr>
+
+          </table>
       </td>
     </tr>
   </table>
