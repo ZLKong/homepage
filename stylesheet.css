@@ -81,28 +81,293 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 22px
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 30px;
+}
+
+.section-title {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 700
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 34px;
+}
+
+.site-nav {
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  justify-content: flex-end;
+  margin: 26px auto 18px;
+  max-width: 1216px;
+  padding: 0 0 16px;
+}
+
+.site-nav a,
+.nav-pending {
+  color: #333;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.site-nav a:hover {
+  color: #1772d0;
+}
+
+.nav-pending {
+  color: #999;
+  cursor: default;
+}
+
+.profile-intro {
+  padding: 2.5%;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.profile-photo {
+  display: block;
+  flex: 0 0 300px;
+}
+
+.profile-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.profile-details name {
+  display: block;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.profile-contact {
+  color: #555;
+  line-height: 1.45;
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  font-size: 26px;
+  margin-bottom: 1em;
+}
+
+.profile-title {
+  font-size: 24px;
+}
+
+.profile-title a {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.umiami-logo {
+  display: block;
+  height: 22px;
+  object-fit: contain;
+  width: auto;
+}
+
+.about-umiami-logo {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: -4px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.profile-links a {
+  background: #f2f2f2;
+  border-radius: 999px;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+}
+
+.link-icon {
+  display: inline-block;
+  font-size: 0.95em;
+  line-height: 1;
+  text-align: center;
+  width: 1em;
+}
+
+.link-icon-text {
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.profile-links a:hover {
+  background: #e7e7e7;
+  color: #1772d0;
+}
+
+.profile-contact .profile-links {
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 14px;
+}
+
+.profile-contact .profile-links a,
+.profile-contact .profile-links a:hover {
+  background: transparent;
+  border-radius: 0;
+  color: #174a7c;
+  display: inline-flex;
+  padding: 0;
+}
+
+.profile-contact .profile-links a:hover {
+  color: #1772d0;
+}
+
+.profile-contact .profile-links svg {
+  display: block;
+  height: 32px;
+  width: 32px;
+}
+
+.cv-icon {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.profile-bio {
+  border-top: 1px solid #d8d8d8;
+  margin-top: 30px;
+  padding-top: 24px;
+}
+
+.profile-bio > heading {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.profile-bio p {
+  line-height: 1.55;
+}
+
+.research-interest {
+  border-left: 4px solid #1772d0;
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+
+.research-heading {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.research-interest p,
+.research-interest li {
+  line-height: 1.55;
+}
+
+.research-interest ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.research-interest li + li {
+  margin-top: 10px;
+}
+
+.openings {
+  background: #eaf5ff;
+  border-radius: 6px;
+  line-height: 1.55;
+  margin-bottom: 42px;
+  padding: 16px 20px;
+}
+
+.news-date,
+.news-type {
+  font-weight: 700;
+}
+
+.news-type.paper {
+  color: #2f80ed;
+}
+
+.news-type.award {
+  color: #d99000;
+}
+
+.news-type.career {
+  color: #9b6bd3;
+}
+
+.news-type.talk {
+  color: #1b9b72;
+}
+
+body > table > tbody > tr > td > table {
+  margin-top: 28px;
+}
+
+.research-news {
+  margin-top: 4px !important;
+}
+
+@media (max-width: 650px) {
+  .site-nav {
+    gap: 8px 16px;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .profile-header {
+    align-items: flex-start;
+    gap: 22px;
+  }
+
+  .profile-photo {
+    flex-basis: 130px;
+  }
+
+  .profile-details name {
+    font-size: 30px;
+  }
 }
 
 .one {
