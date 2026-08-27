@@ -81,33 +81,33 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px
+  font-size: 18px
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .section-title {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700
 }
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 34px;
+  font-size: 27px;
 }
 
 .site-nav {
@@ -119,14 +119,14 @@ name {
   gap: 10px 28px;
   justify-content: flex-end;
   margin: 26px auto 18px;
-  max-width: 1216px;
+  max-width: 973px;
   padding: 0 0 16px;
 }
 
 .site-nav a,
 .nav-pending {
   color: #333;
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -146,12 +146,12 @@ name {
 .profile-header {
   display: flex;
   align-items: center;
-  gap: 38px;
+  gap: 30px;
 }
 
 .profile-photo {
   display: block;
-  flex: 0 0 300px;
+  flex: 0 0 240px;
 }
 
 .profile-photo img {
@@ -164,7 +164,7 @@ name {
 
 .profile-details name {
   display: block;
-  font-size: 42px;
+  font-size: 34px;
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -176,12 +176,8 @@ name {
 }
 
 .profile-title {
-  font-size: 26px;
+  font-size: 20px;
   margin-bottom: 1em;
-}
-
-.profile-title {
-  font-size: 24px;
 }
 
 .profile-title a {
@@ -260,15 +256,15 @@ name {
 
 .profile-contact .profile-links svg {
   display: block;
-  height: 32px;
-  width: 32px;
+  height: 26px;
+  width: 26px;
 }
 
 .cv-icon {
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 .profile-bio {
@@ -294,7 +290,7 @@ name {
 
 .research-heading {
   display: block;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 12px;
 }
 
