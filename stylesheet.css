@@ -120,7 +120,7 @@ name {
   justify-content: flex-end;
   margin: 26px auto 18px;
   max-width: 973px;
-  padding: 0 0 16px;
+  padding: 0 16px 16px 0;
 }
 
 .site-nav a,
@@ -256,15 +256,15 @@ name {
 
 .profile-contact .profile-links svg {
   display: block;
-  height: 26px;
-  width: 26px;
+  height: 30px;
+  width: 30px;
 }
 
 .cv-icon {
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 26px;
+  line-height: 30px;
 }
 
 .profile-bio {
