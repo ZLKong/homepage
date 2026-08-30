@@ -81,7 +81,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 18px
+  font-size: 19px
 }
 
 strong {
@@ -144,7 +144,7 @@ name {
 }
 
 .profile-intro {
-  padding: 2.5%;
+  padding: 2.0% 2.5% 2.5%;
 }
 
 .profile-header {
@@ -155,7 +155,8 @@ name {
 
 .profile-photo {
   display: block;
-  flex: 0 0 240px;
+  flex: 0 0 220px;
+  transform: translateY(-10px);
 }
 
 .profile-photo img {
@@ -181,7 +182,7 @@ name {
 
 .profile-title {
   font-size: 20px;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .profile-title a {
@@ -316,7 +317,7 @@ name {
   background: #eaf5ff;
   border-radius: 6px;
   line-height: 1.55;
-  margin-bottom: 42px;
+  margin-bottom: 25px;
   padding: 16px 20px;
 }
 
@@ -346,7 +347,7 @@ body > table > tbody > tr > td > table {
 }
 
 .research-news {
-  margin-top: 4px !important;
+  margin-top: -35px !important;
 }
 
 @media (max-width: 650px) {
