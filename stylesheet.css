@@ -331,6 +331,10 @@ name {
 }
 
 .news-type.award {
+  color: #d63031 !important;
+}
+
+.news-type.other {
   color: #d99000;
 }
 
